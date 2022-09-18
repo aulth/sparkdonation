@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face{
+    font-family:'helvetica';
+    src:url('/fonts/helveticabold.ttf');
+}
+
+.g-bg{
+    background-image: linear-gradient(to right top, #ffcf99, #ffbd91, #ffab8f, #ff9993, #ff889c);
+}
